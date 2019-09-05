@@ -88,9 +88,23 @@ You can create manifest.webmanifest manually under your project with the followi
 {"name" : "pigment",
     "short_name" : "pigment",
     "description" : "Pigment App color conversion",
-    "icons" : [
-    ]
-}
+    "start_url" : "https://sdc-pwa-2019.glitch.me/",
+    "lang" : "English",
+    "display" : "standalone",
+    "theme_color": "#3d3d3d",
+    "background_color": "#f2f2f2",
+    "orientation" : "portrait",
+    "icons": [ {
+       "src": "/images/pigment-ico.png",
+       "sizes": "192x192",
+       "type": "image/png"
+     },
+     {
+       "src": "/images/pigment-ico.png",
+       "sizes": "512x512",
+       "type": "image/png"
+     }]
+  }
 ```
 
 There are different attributes that you can provide to create your manifest file, if you want to add more information and see which attributes are available we strongly recommend
@@ -127,15 +141,17 @@ the cache whenever a page requests it. At the same time it will update the cache
 ### Install Experience and Other Features
 
 Besides what we have already done there are different features that you can add to your app including the behavior of an installed app.
-In order to add this feature (and explore others) in PWA builder go to https://www.pwabuilder.com/features, select Install your PWA and
-follow the instructions.  
+In order to add this feature (and explore others) in PWA builder go to https://www.pwabuilder.com/features. In this case we already followed the criteria with our manifest file to make Pigment installable.
 
 
 ### Test your App!
 
 Congratulations! You just created a Progressive Web App! 
+- Open your browser and look for the install button.
 
 You can follow these steps with any web app and convert it to a PWA.
+
+
 
 If you would like to learn more about it, take a look into the following links:
   - Progressive Web Apps by Jason Grigsby https://abookapart.com/products/progressive-web-apps
