@@ -147,7 +147,12 @@ In order to add this feature (and explore others) in PWA builder go to https://w
 ### Test your App!
 
 Congratulations! You just created a Progressive Web App! 
-- Open your browser and look for the install button.
+- Open your browser and select the install button.
+[
+<img width="94" alt="install" src="https://user-images.githubusercontent.com/7328790/64352404-e35c7280-cff3-11e9-93bd-6d4083d386ec.png">
+](url)
+Your PWA has a full app behavior now!!
+
 
 You can follow these steps with any web app and convert it to a PWA.
 
