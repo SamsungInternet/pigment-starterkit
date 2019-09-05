@@ -148,10 +148,14 @@ In order to add this feature (and explore others) in PWA builder go to https://w
 
 Congratulations! You just created a Progressive Web App! 
 - Open your browser and select the install button.
-[
-<img width="94" alt="install" src="https://user-images.githubusercontent.com/7328790/64352404-e35c7280-cff3-11e9-93bd-6d4083d386ec.png">
-](url)
+
+<img width="150" alt="install" src="https://user-images.githubusercontent.com/7328790/64352404-e35c7280-cff3-11e9-93bd-6d4083d386ec.png">
+
+
 Your PWA has a full app behavior now!!
+
+
+<img width="500" alt="install" src="https://user-images.githubusercontent.com/7328790/64352847-9f1da200-cff4-11e9-95fb-a360439f9c22.png">
 
 
 You can follow these steps with any web app and convert it to a PWA.
